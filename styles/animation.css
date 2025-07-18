@@ -1,0 +1,42 @@
+@keyframes colorCycle {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: rgb(243, 47, 200);
+  }
+  75% {
+    color: rgb(224, 208, 248);
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes sizeCycle {
+  0% {
+    font-size: 20px;
+    color: rgb(186, 183, 183);
+  }
+  100% {
+    font-size: 24px;
+    color: rgb(249, 245, 199);
+  }
+}
+
+@keyframes borderCycle {
+  0% {
+    box-shadow: -1px 0px 9px 3px #fad900;
+  }
+  32% {
+    border-right: 2px dotted white;
+  }
+  68% {
+    border-bottom: 2px dotted white;
+  }
+  100% {
+  }
+}
